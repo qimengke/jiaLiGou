@@ -1,0 +1,152 @@
+html,body{
+	background-color: #EEEEEE;
+}
+/*注册头部开始*/
+#regist-header{
+	margin-top: 10px;
+	width: 100%;
+	background-color: #FFFFFF;
+	height: 130px;
+}
+.header-main{
+	margin: 0 auto;
+	width: 1190px;
+	
+}
+.logo{
+	float: left;
+	margin-top: 36px;
+}
+.header-title{
+	margin-top: 63px;
+	float: left;
+	margin-left: 5px;
+}
+.gray-line{
+	color: #C9C9CC;
+}
+.header-title li{
+	font-family: "微软雅黑";
+	font-size: 17px;
+	float: left;
+	margin-right: 15px;
+}
+.header-right{
+	width: 125px;
+	height: 15px;
+	margin-top: 57px;
+	float: right;
+	border: 1px solid #E5007F;
+	padding: 8px 6px;
+	line-height: 15px;
+	text-indent: 5px;
+}
+.header-right a{
+	color: #E91456;
+}
+/*注册头部结束*/
+.main{
+	width: 1190px;
+	height: 379px;
+	margin: 0 auto;
+	margin-top: 30px;
+	background-color: #FFFFFF;
+}
+.main-left{
+	float: left;
+	width: 435px;
+	height: 379px;
+}
+
+.input-main{
+	float: left;
+	margin: 52px 0 0 35px;
+}
+.input-main input{
+	height: 32px;
+	width: 284px;
+	outline: none;
+}
+.input-main li{
+	height: 34px;
+	line-height: 34px;
+	margin-bottom: 22px;
+	position: relative;
+}
+.input-main li span{
+	display: inline-block;
+	width: 81px;
+}
+.input-main li #agreeChoose{
+	width: 13px;
+}
+.main .main-last span{
+	height: 20px;
+	float: left;
+	display: block;
+}
+.main-last input{
+	float: left;
+}
+.main .main-left .main-last a{
+	padding-top: 2px;
+	display: inline-block;
+	float: left;
+}
+.main .main-left .main-last{
+}
+.main-last #submit{
+	width: 276px;
+	height: 32px;
+	display: block;
+	margin-top: -20px;
+	background: #e21357;
+	border: 0;
+	cursor: pointer;
+	color: white;
+	font-size: 14px;
+}
+.main-last #submit:hover{
+	background: #CC1C23;
+}	
+.main-last-choose{
+	margin-top: -40px;
+	line-height: 12px;
+}
+.main-last-choose p{
+	float: left;
+	display: inline;
+}
+.main .main-left .main-last-choose a{
+	padding: 0;
+	color: red;
+}
+.main-right{
+	float: left;
+}
+.main-right img{
+	height: 379px;
+}
+#submit{
+	float: right;
+	width: 176px;
+	height: 30px;
+	padding: 0 12px;
+	font-size: 16px;
+    background: #e21357;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 3px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 30px;
+}
+#submit:hover{
+	background-color: #cc1c23;
+}
+
+
+
+
+

@@ -1,0 +1,191 @@
+html,body{
+	overflow: scroll;
+}
+/*html {height: 100%; margin-bottom: 1px; }*/	
+#proCategoryList-body{
+	width: 1190px;
+	margin: 0 auto;
+}
+.goods-title{
+	padding-left: 25px;
+	height: 30px;
+	line-height: 30px;
+}
+
+/*内容*/
+.list-main{
+	width: 1190px;
+}
+.main-left-nav{
+	border: 1px solid #E8E8E7;
+	width: 188px;
+	float: left;
+}
+.l-title{
+	display: block;
+	width: 163px;
+	padding-left: 25px;
+	height: 30px;
+	background: rgb(232, 232, 231);
+	line-height: 30px;
+	cursor: pointer;
+}
+.l-main{
+	padding: 5px 27px 0px 25px;
+}
+.l-main h3{
+	font-size: 12px;
+	padding: 5px 0px;
+}
+.l-main .l-main-title{
+	line-height: 25px;
+	margin-right: 10px;
+	float: left;
+	
+}
+.l-main .l-main-title a{
+	color: #444444;
+}
+.l-main .l-main-title a:hover{
+	color: #E91456;
+}
+.l-main li{
+	width: 140px;
+	float: left;
+	margin-bottom: 10px;
+}
+.recommend-tit{
+	float: left;
+	padding: 33px 0 12px 25px;
+	width: 164px;
+	font-size: 16px;
+	color: #E91456;
+	border-bottom: 1px solid #E8E8E7;
+}
+.recommend-goods li{
+	float: left;
+	height: 250px;
+}
+.recommend-goods li img{
+	width: 188px;
+	height: 186px;
+}
+.recommend-goods li p{
+	width: 180px;
+	padding: 5px;
+	margin-bottom: 5px;
+	line-height: 14px;
+	font-size: 12px;
+}
+.recommend-goods li span{
+	padding-left: 5px;
+	font-family: "微软雅黑";
+}
+.main-right{
+	float: right;
+	width: 990px;
+	border: 1px solid #E8E8E7;
+}
+.main-right-top-nav{
+	padding: 5px 5px 5px 15px;
+	width: 970px;
+	border-bottom: 1px solid #E8E8E7;
+	font-size: 12px;
+}
+.main-right-top-nav P{
+	line-height: 40px;
+}
+.main-right-top-nav a{
+	display: inline-block;
+	text-align: center;
+	padding: 2px 3px;
+	height: 15px;
+	line-height: 15px;
+}
+.classify-active{
+	background-color: #E91456;
+	color: #FFFFFF;
+}
+a.classify-active:hover{
+	color: #FFFFFF;
+}
+.goods-sort{
+	border-bottom: 1px solid #E8E8E7;
+}
+.goods-sort ul{
+	width: 100%;
+}
+.goods-sort li{
+	padding: 5px 5px 5px 15px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+
+.goods-sort .gray-span{
+	display: block;
+	height: 30px;
+	padding: 0px 5px;
+	background-color: #EEEEEE;
+}
+.main-right .goods-sort .li-right{
+	float: right;
+}
+.main-goods{
+	padding-top: 5px;
+}
+.main-goods li{
+	width: 218px;
+	height: 325px;
+	margin: 0px 0px 5px 14px;
+	border: 1px solid transparent;
+	float: left;
+	padding: 5px;
+}
+.main-goods li:hover{
+	border: 1px solid #E8E8E7;
+}
+.main-goods li img{
+	width: 218px;
+	height: 218px;
+}
+.main-goods .price{
+	font-family: "微软雅黑";
+}
+.main-goods p.goods-name{
+	float:left;
+	width: 218px;
+	margin-bottom: 5px;
+	min-height: 38px;
+}
+.main-goods p.sales{
+	float: right;
+}
+.choose-btn{
+	text-align: center;
+	margin-top: 7px;
+}
+.main-goods .add-cart,.collect{
+	display: inline-block;
+	margin-right: 10px;
+	color: #333;
+	border:1px solid #d0d0d0;
+	background: #f3f3f3;
+	padding: 0 12px;
+	height: 30px;
+	line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

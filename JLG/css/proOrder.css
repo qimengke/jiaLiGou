@@ -1,0 +1,381 @@
+/*顶部开始*/
+.header {
+	width: 100%;
+	height: 147px;
+	margin-bottom: 10px;
+}
+
+.header-main {
+	margin: 0 auto;
+	width: 1190px;
+}
+
+.logo {
+	float: left;
+	margin-top: 36px;
+}
+
+.header-title {
+	margin-top: 63px;
+	float: left;
+	margin-left: 5px;
+}
+
+.gray-line {
+	color: #C9C9CC;
+}
+
+.header-title li {
+	font-family: "微软雅黑";
+	font-size: 17px;
+	float: left;
+	margin-right: 15px;
+}
+
+.header-right {
+	margin-top: 57px;
+	float: right;
+	padding: 8px 6px;
+}
+
+.header-right a {}
+
+.header-right ul {
+	position: relative;
+	width: 530px;
+}
+
+.header-right ul li {
+	position: absolute;
+	text-align: center;
+}
+
+.content-title-li {
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+.gray-line-li {
+	width: 530px;
+	left: 0;
+	top: 0px;
+	padding: 0;
+	border-top: 4px solid #d2d2d2;
+	height: 0;
+}
+
+.red-line-li {
+	left: 0;
+	top: 0px;
+	padding: 0;
+	border-top: 4px solid #e81355;
+	height: 0;
+	width: 260px;
+}
+
+.red-circle-li {
+	top: -3px;
+	padding-left: 5px;
+}
+
+.header-right ul span {
+	display: inline-block;
+	width: 130px;
+	height: 30px;
+	float: left;
+}
+
+.header-right ul span img {
+	margin: 0 auto;
+	width: 10px;
+	height: 10px;
+}
+
+
+/*顶部结束*/
+
+
+/*收货地址开始*/
+
+.address {
+	width: 1190px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.address-t1,
+.pay-t1,
+.goods-list-t1 {
+	width: 1178px;
+	height: 40px;
+	padding: 0 5px;
+	font-size: 14px;
+}
+
+.address-content {
+	border: 1px solid #c9c9c9;
+}
+
+.address-tit {
+	height: 39px;
+	line-height: 39px;
+	padding: 0 5px;
+	border-bottom: 1px solid #c9c9c9;
+	background-color: #eeeeee;
+	font-size: 13px;
+	font-family: "微软雅黑";
+}
+
+.address-tit a {
+	float: right;
+}
+.address-content{
+	position: relative;
+}
+.address-main {
+	float: left;
+}
+.address-img{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	height: 255px;
+}
+.more-address {
+	display: block;
+	float: left;
+	margin-left: 5px;
+	margin-bottom: 30px;
+}
+ul.address-main{
+	padding-left: 40px;
+	padding-top: 15px;
+	font-size: 13px;
+}
+ul.address-main li{
+	height: 60px;
+}
+ul.address-main li span{
+	line-height: 30px;
+}
+ul.address-main li p{
+	font-weight: bold;
+	text-indent: 25px;
+	line-height: 25px;
+}
+/*收货地址结束*/
+
+
+/*支付方式开始*/
+
+.pay {
+	margin-top: 20px;
+}
+
+.pay-content {
+	width: 1188px;
+	border: 1px solid #c9c9c9;
+	position: relative;
+}
+
+.pay-content li {
+	width: 1182px;
+	padding-left: 10px;
+	height: 42px;
+	line-height: 42px;
+	padding-left: 30px;
+}
+
+.pay-content li input {
+	float: left;
+	display: block;
+	padding: 5px;
+	margin: 10px;
+	margin-top: 15px;
+}
+
+.pay-content li img {
+	float: left;
+	margin-top: 7px;
+}
+.pay-content img.pay-img{
+	height: 120px;
+	position: absolute;
+	right: 65px;
+	bottom: 20px;
+	width: 400px;
+}
+
+/*支付方式结束*/
+
+
+/*配送清单开始*/
+
+.goods-list-t1 {
+	margin-top: 20px;
+}
+
+.goods-list-t1 a {
+	font-size: 12px;
+	margin-left: 20px;
+	color: #686767;
+}
+
+
+
+ul.goods-content-t{
+	width: 1186px;
+	padding-left: 2px;
+	float: left;
+	border-bottom: 1px solid #c9c9c9;
+	background-color: #eeeeee;
+}
+ul.goods-content-t li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.goods-content-t1{
+	text-align: left;
+	width: 262px;
+	position: relative;
+}
+.goods-content-t2{
+	width: 298px;
+}
+.goods-content-t3{
+	width: 215px;
+}
+.goods-content-t3-tit{
+	width: 219px;
+}
+.goods-content-t4{
+	width: 190px;
+}
+.goods-content-goods{
+	padding-left: 2px;
+}
+.goods-content-goods li{
+	float: left;
+	height: 190px;
+	line-height: 190px;
+	text-align: center;
+}
+.reduceBtn,
+.addBtn {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	text-align: center;
+	background-color: #EEEEEE;
+	line-height: 24px;
+}
+
+a.reduceBtn,
+a.addBtn {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bolder;
+	margin-top: 10px;
+	float: left;
+	color: #000000;
+}
+a.reduceBtn:hover,
+a.addBtn:hover{
+	background-color: #F6F6F6;
+}
+
+input.proAmo  {
+	display: inline-block;
+	width: 43px;
+	height: 20px;
+	margin: 0px 10px;
+	text-align: center;
+	padding: 0;
+	float: left;
+	margin-top: 10px;
+}
+.goods-show{
+	border: 1px solid #c9c9c9;
+}
+
+.goods-content-goods .goods-content-t4{
+	width: 190px;
+	height: 115px;
+	text-align: center;
+}
+.goods-content-goods .goods-content-t2{
+	padding-top: 75px;
+	line-height: 20px;
+	height: 115px;
+}
+.goods-content-goods .goods-content-t1 img{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.proPrice,.firstPrice{
+	font-size: 13px;
+	font-family: "微软雅黑";
+}
+.remark-main{
+	margin-left: 56px;
+	margin-bottom: 20px;
+}
+.remark-before{
+	float: left;
+}
+.remark{
+	display: inline-block;
+	width: 650px;
+	height: 17px;
+	padding: 5px;
+	margin: 0 10px 0 10px;
+	float: left;
+	position: relative;
+	bottom: 3px;
+}
+.goods-content-bottom{
+	width: 1164px;
+	height: 109px;
+	line-height: 60px;
+	padding: 0 12px;
+	background-color: #eeeeee;
+	margin-top: 30px;
+}
+.g-c-b-r{
+	float: right;
+}
+.g-c-b-r li{
+	float: left;
+	margin-right: 50px;
+}
+
+.g-c-b-r li.pink{
+	font-weight: bold;
+}
+.goods-content-bottom button{
+	float: right;
+	width: 176px;
+	height: 30px;
+	padding: 0 12px;
+	font-size: 16px;
+    background: #e21357;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 3px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.goods-content-bottom button:hover{
+	background-color: #cc1c23;
+}
+.b-price,.b-integral-all,.b-integral,.b-price,.b-price-all{
+	font-family: "微软雅黑";
+}
+/*配送清单结束*/

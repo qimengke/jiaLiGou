@@ -1,0 +1,412 @@
+@charset "utf-8";
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin: 0;padding: 0;}
+fieldset,img{border: none;}
+img{display: block;}
+address,caption,cite,code,dfn,th,var{font-style: normal;font-weight: normal;}
+ul,ol{list-style:none;}
+body{color: #333;padding: 0px;font: 12px/20px "SimSun","微软雅黑","Arial Narrow",HELVETICA;background:#fff;/* overflow-y:scroll;*/ overflow-x:hidden;}
+a{color: #000;text-decoration: none;font-family: "宋体";}
+a:hover,a:active,a:focus{color: #E91456;text-decoration: underline;}
+
+html,body{width: 100%;height: 100%;}
+.pink{
+	color: #E91456;
+}
+.clearfx{
+	clear: both;
+}
+input[type = text],input[type = password]{
+	padding-left: 5px;
+}
+textarea{
+	padding: 5px;
+}
+/*header开始*/
+#header{
+	width: 100%;
+	height: 165px;
+	border-bottom: 2px solid #E91456;
+}
+/*header顶部开始*/
+.headerTop-content{
+	width: 1200px;
+	height: 36px;
+	margin: 0 auto;
+}
+.headerTop{
+	background-color: #F7F7F7;
+	width: 100%;
+	height: 36px;
+    font-size: 13px;
+    border-bottom: 1px solid #E8E8E7;
+}
+.headerTop .hotline{
+	width: 218px;
+	height: 24px;
+	float: left;
+	background: url(../img/header/ind-tel.png) no-repeat left 12px;
+	padding:12px 0 0 21px;
+}
+.headerTop .hotline .phoneNum{
+	margin-left: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #E91456;
+	display: inline-block;
+}
+.headerTop .regist,.loginBtn{
+	font-size: 12px;
+	float: left;
+}
+.headerTop .regist{
+	margin-left: 4px;
+	display: inline-block;
+}
+.headerTop .headerTop-right{
+	float: right;
+	margin-top: 10px;
+	font-size: 12px;
+	padding-right: 5px;
+}
+.headerTop .loginActive{
+	float: left;
+	width: 500px;
+	padding-top: 10px;
+}
+
+.headerTop-right li{
+	margin-right: 10px;
+	float: left;
+}
+.headerTop-right .headerTop-right-last{
+	margin: 0;
+	background: url(../img/header/ind-mobile.png) no-repeat left center;
+	padding-left: 22px;
+}
+/*header顶部结束*/
+
+/*header中间内容开始*/
+.headerContent{
+	width: 1190px;
+	height: 74px;
+	margin: 10px auto;
+}
+.logo{
+	float: left;
+	width: 196px;
+	height: 74px;
+}
+.wrapper{
+	display: block;
+	width: 146px;
+	height: 74px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+.wrapper-ul{
+	width: 292px;
+	position: absolute;
+}
+.wrapper-ul li{
+	width: 146px;
+	float: left;
+}
+.searchContent{
+	width: 403px;
+	height: 54px;
+	margin-left: 73px;
+	padding-top: 20px;
+	float: left;
+}
+.search{
+	height: 30px;
+	width: 403px;
+	border: 1px solid #E91456;
+}
+.searchText{
+	float: left;
+	font-size: 12px;
+	display: inline-block;
+	width: 320px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    padding-left: 5px;
+    font-size: 12px;
+    border: 0;
+    outline: none;
+    vertical-align: middle;
+    
+}
+.searchContent button{
+	font-family: "宋体";
+	cursor: pointer;
+	text-align: center;
+	font-size: 12px;
+	color: #FFFFFF;
+	background: url(../img/header/search.png) 13px center no-repeat;
+	background-color: #E21357;
+	padding-left: 27px;
+	letter-spacing: 3px;
+	font-weight: bold;
+	float: left;
+	border: 0;
+	width: 78px;
+	height: 30px;
+	float: left;
+}
+.searchContent button:hover{
+	background-color: #CC1C23;
+}
+.goodsExample{
+	float: left;
+	margin: 6px 0 0 10px;
+}
+.goodsExample li{
+	float: left;
+	margin-right: 21px;
+}
+.goodsExample li a{
+	color: #CCCCCC;
+}
+.goodsExample li a:hover{
+	color: #DA251D;
+}
+.goodsCar{
+	cursor: pointer;
+	float: right;
+	width: 136px;
+    height: 28px;
+    line-height: 28px;
+    margin: 20px 0 23px;
+    padding: 0 10px;
+    border: 1px solid #E8E8E7;
+}
+.goodsCar .bcCarImg{
+	background: url(../img/header/cart.png) left bottom;
+	display: inline-block;
+    width: 16px;
+    height: 13px;
+    margin-right: 25px;
+    vertical-align: middle;
+}
+.goodsCarNum{
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: url(../img/header/anniu.png) no-repeat;
+	position: relative;
+	left: 16px;
+	bottom: 4px;
+	color: #FFFFFF;
+	text-indent: 5px;
+	line-height: 15px;
+	font-style: normal;
+}
+.myCarText{
+	display: inline-block;
+	width: 95px;
+	float: right;
+}
+.myCarText a{
+	text-decoration: none;
+}
+/*header中间内容结束*/
+
+/*header底部内容开始*/
+.headerBottom{
+	margin: 0 auto;
+	width: 1190px;
+	height: 34px;
+}
+.headerBottom-left{
+	float: left;
+	width: 180px;
+	height: 34px;
+	color: #ffffff;
+	line-height: 36px;
+	padding-left: 10px;
+	background: #e91456;
+	cursor: default;
+	font-weight: 600;
+}
+/*左侧滑动导航开始*/
+.nav-silde{
+	background: white;
+	z-index: 9999;
+	display: none;
+	border: 1px solid #CCCCCC;
+	border-top: 0;
+	position: absolute;
+	top: 167px;
+	padding-left: 17px;
+}
+.nav-silde li{
+	line-height: 34px;
+	width: 171px;
+	height: 34px;
+}
+/*左侧滑动导航结束*/
+.item{
+	float: left;
+	margin-left: 45px;
+}
+.item li{
+	float: left;
+	line-height: 34px;
+	margin-right: 17px;
+	margin-bottom: -1px;
+}
+.item-li a{
+	font-weight: 900;
+	font-size: 17px;
+	color: black;
+}
+.item-li a:hover{
+	text-decoration: none;
+	color:  rgb(233, 20, 86);
+}
+.gray{
+	color: #CCCCCC;
+}
+
+.orderPhone{
+	color: #000000;
+	font-weight: bold;
+	font-size: 12px;
+	float: right;
+	margin-right: 195px;
+	line-height: 34px;
+}
+.orderPhone li{
+	float: left;
+}
+.orderPhone-title{
+	margin-right: 4px;
+}
+.orderPhone-num{
+	font-size: 13px;
+	color: #EA1457;
+}
+/*header底部内容结束*/
+/*header结束*/
+
+/*footer开始*/
+#footer{
+	width: 100%;
+	height: 386px;
+	border-top: 2px solid #E91456;
+	font-family: "微软雅黑";
+	margin-top: 30px;
+}
+.footerTop{
+	margin: 9px auto 0;
+	width: 1200px;
+	height: 46px;
+	background: url(../img/footer/foot_info.jpg) no-repeat;
+}
+.footerMid{
+	margin: 22px auto 10px;
+	width: 1190px;
+	height: 150px;
+}
+.footerMid-c1{
+	margin-top: 13px;
+	margin-right: 52px;
+	background: url(../img/footer/jlg_2d.jpg) no-repeat;
+	width: 123px;
+	height: 123px;
+	float: left;
+}
+.footerMid-c2{
+	float: left;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	width: 681px;
+	height: 150px;
+	padding-left: 39px;
+}
+.footer-ul{
+	float: left;
+}
+.footer-ul li{
+	line-height: 30px;
+	height: 30px;
+	width: 136px;
+}
+.footer-ul li a{
+	color: #444444;
+}
+.footer-ul li a:hover{
+	color: #E91456;
+	text-decoration: underline;
+}
+.footer-ul li.footer-ul-first{
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+}
+.footerMid-c3{
+	float: right;
+	margin-top: 35px;
+}
+.footerBtm-middle{
+	width: 100%;
+	height: 60px;
+}
+.footerBtm{
+	width: 100%;
+	height: 150px;
+	background-color: #F8F8F8;
+}
+.footerBtm p{
+	line-height: 35px;
+	text-align: center;
+	height: auto;
+	margin: 0 auto;
+}
+.footerBtm-d{
+	text-align: center;
+	margin: 0 auto;
+	line-height: 18px;
+	color: #999999;
+}
+.footerBtm-d a{
+	color: #999999;
+}
+.footerBtm img{
+	line-height: 25px;
+	margin: 0 auto;
+}
+a.station{
+	display: block;
+	width: auto;
+	height: auto;
+	margin-top: 2px;
+}
+.footerBtm-bottom{
+	width: 100%;
+	text-align: center;
+}
+.footerBtm-bottom img{
+	margin-right: 18px;
+	display: inline-block;
+}
+.footerBtm-bottom .footerBtm-bottom-last{
+	margin: 0;
+}
+/*footer结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+

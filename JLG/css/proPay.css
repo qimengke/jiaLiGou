@@ -1,0 +1,243 @@
+/*顶部开始*/
+.header {
+	width: 100%;
+	height: 147px;
+	margin-bottom: 10px;
+}
+
+.header-main {
+	margin: 0 auto;
+	width: 1190px;
+}
+
+.logo {
+	float: left;
+	margin-top: 36px;
+}
+
+.header-title {
+	margin-top: 63px;
+	float: left;
+	margin-left: 5px;
+}
+
+.gray-line {
+	color: #C9C9CC;
+}
+
+.header-title li {
+	font-family: "微软雅黑";
+	font-size: 17px;
+	float: left;
+	margin-right: 15px;
+}
+
+.header-right {
+	margin-top: 57px;
+	float: right;
+	padding: 8px 6px;
+}
+
+
+.header-right ul {
+	position: relative;
+	width: 530px;
+}
+
+.header-right ul li {
+	position: absolute;
+	text-align: center;
+}
+
+.content-title-li {
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+.gray-line-li {
+	width: 530px;
+	left: 0;
+	top: 0px;
+	padding: 0;
+	border-top: 4px solid #d2d2d2;
+	height: 0;
+}
+
+.red-line-li {
+	left: 0;
+	top: 0px;
+	padding: 0;
+	border-top: 4px solid #e81355;
+	height: 0;
+	width: 390px;
+}
+
+.red-circle-li {
+	top: -3px;
+	padding-left: 5px;
+}
+
+.header-right ul span {
+	display: inline-block;
+	width: 130px;
+	height: 30px;
+	float: left;
+}
+
+.header-right ul span img {
+	margin: 0 auto;
+	width: 10px;
+	height: 10px;
+}
+
+/*顶部结束*/
+
+/*内容开始*/
+.proPay-main{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 36px;
+	margin-bottom: 100px;
+}
+.proPay-main-tit{
+	font-size: 16px;
+	line-height: 40px;
+}
+.proPay-content{
+	padding: 50px;
+	border: 1px solid #CDCDCD;
+}
+.p-c-l{
+	width: 440px;
+	float: left;
+	border-right: 1px solid #CDCDCD;
+	padding: 30px 0px;
+	padding-left: 60px;
+}
+.p-c-l li{
+	height: 80px;
+	line-height: 80px;
+	font-size: 16px;
+}
+.p-c-l ul li span{
+	display: inline-block;
+	width: 100px;
+} 
+#payWay img{
+	display: inline-block;
+	height: 29px;
+	width: 97;
+	position: relative;
+	top: 10px;
+}
+#payPrice{
+	font-size: 18px;
+}
+.p-c-l .payBtn{
+    width: 176px;
+    height: 32px;
+    padding: 0 12px;
+    font-size: 16px;
+    background: #e21357;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 3px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    right: 70px;
+}
+.p-c-l .payBtn:hover{
+	background-color: #cc1c23;
+}
+.p-c-r{
+	float: left;
+	padding: 10px 0  60px 105px;
+	text-align: center;
+}
+.p-c-r-t{
+	font-size: 16px;
+	display: block;
+	margin-bottom: 25px;
+}
+/*内容结束*/
+
+/*模态窗口开始*/
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+}
+
+.modal {
+  display: none;
+  background: #fff;
+  padding: 0 20px 20px;
+  overflow: auto;
+  z-index: 1001;
+  position: absolute;
+  width: 500px;
+  min-height: 300px;
+  border-radius: 5px;
+}
+.modal img{
+	width: 200px;
+	height: 200px;
+	margin-top: 55px;
+	float: left;
+}
+.modal-content{
+	font-size: 20px;
+	float: left;
+	padding-top: 76px;
+	padding-left: 30px;
+}
+.modal-content span{
+	color: #FDD000;
+	font-size: 30px;
+	line-height: 100px;
+}
+.modal-content p{
+	margin-top: 30px;
+	font-size: 14px;
+	color: #000000;
+}
+.modal-time{
+	font-style: normal;
+	color: red;
+}
+/*模态窗口结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

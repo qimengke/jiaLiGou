@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/proPay.css"/>
+	</head>
+	<body>
+		<div class="proPay-body">
+			<!--顶部开始-->
+			<div class="header">
+				<div class="headerTop">
+					<div class="headerTop-content">
+						<div class="hotline">
+							电话热线<span class="phoneNum">400-630-0077</span>
+						</div>
+						<div class="loginActive">
+							<a href="userCenter/userLogin.html" class="loginBtn">[登录]</a>
+							<a href="userCenter/userRegist.html" class="regist">[免费注册]</a>
+						</div>
+						<ul class="headerTop-right">
+							<li><a href="user.html">我的嘉</a></li>
+							<li><a href="proOrder.html">我的订单</a></li>
+							<li><a href="">客户服务</a></li>
+							<li><a href="">电视会员激活</a></li>
+							<li class="headerTop-right-last"><a href="">手机嘉里购</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="header-main">
+					<div class="logo">
+						<a href="index.html"><img src="img/userCenter/logo.png" /></a>
+					</div>
+					<ul class="header-title">
+						<li class="gray-line">|</li>
+						<li>等待付款</li>
+					</ul>
+					<div class="header-right">
+						<ul>
+							<li class="content-title-li">
+								<span>我的购物车</span>
+								<span>提交订单</span>
+								<span>等待付款</span>
+								<span>支付成功</span>
+							</li>
+							<li class="gray-line-li"></li>
+							<li class="red-line-li"></li>
+							<li class="red-circle-li">
+								<span>
+									<img src="img/shoppingCart/redcircle.png"/>
+								</span>
+								<span>
+									<img src="img/shoppingCart/redcircle.png"/>
+								</span>
+								<span>
+									<img src="img/shoppingCart/redcircle.png"/>
+								</span>
+								<span>
+									<img src="img/shoppingCart/redcircle.png"/>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--顶部结束-->
+			<!--内容开始-->
+			<div class="proPay-main">
+				<div class="proPay-main-tit">
+					订单已成功提交，请在<span class="pink" style="font-weight: bold;">2小时</span>内完成支付，我们将尽快为您送达。<span class="pink" style="font-size: 12px;">(逾期订单将自动取消)</span>
+				</div>
+				<div class="proPay-content">
+					<div class="p-c-l">
+						<ul>
+							<li>
+								<span>订单号：</span>
+								<b>201603051909</b>
+							</li>
+							<li>
+								<span>支付方式：</span>
+								<b id="payWay"></b>
+							</li>
+							<li>
+								<span>应付金额：</span>
+								<b class="pink" id="payPrice"></b>
+							</li>
+							<li>
+								<span></span><button class="payBtn">确认支付</button>
+							</li>
+						</ul>
+					</div>
+					<div class="p-c-r">
+						<span class="p-c-r-t">扫描二维码即可支付</span>
+						<img src="img/proPay/erwm.png"/>
+					</div>
+					<div class="clearfx"></div>
+				</div>
+			</div>
+			<!--内容结束-->
+			<div id="footer"></div>
+			<div class="overlay"></div>
+			<div class="modal">
+				<img src="img/proPay/duihao.png"/>
+				<div class="modal-content">
+					<span>支付成功！</span><br />
+					您已成功支付<b class="pink"></b>元！
+					<p>页面将在<i class="modal-time">5</i>秒后跳转...</p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/commom.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/proPay.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.modal.js" type="text/javascript" charset="utf-8"></script>
+</html>

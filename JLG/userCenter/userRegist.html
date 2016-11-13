@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>用户注册</title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/userCenter/userRegist.css" />
+	</head>
+
+	<body>
+		<div id="regist-header">
+			<div class="header-main">
+				<div class="logo"><a href="../index.html"><img src="../img/userCenter/logo.png" /></a></div>
+				<ul class="header-title">
+					<li class="gray-line">|</li>
+					<li>欢迎注册</li>
+				</ul>
+				<div class="header-right">
+					已有账号
+					<a href="userLogin.html">直接登陆</a>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+			<form action="" method="post" id="regist-form">
+				<div class="main-left">
+					<ul class="input-main">
+						<li><span>*用户名</span>
+							<input  id="mobile" type="text" required="required" oninput="setCustomValidity('');" oninvalid="setCustomValidity('请输入手机号码！');" pattern="^1[34578]{1}[0-9]{9}$" placeholder="输入手机号"  />
+						</li>
+						<li><span>*设置密码</span>
+							<input type="password" name="psw" id="psw" value="" placeholder="输入密码" minlength="6" required=""/>
+						</li>
+						<li><span>*确认密码</span>
+							<input type="password" name="confirmpsw" id="confirmPsw" value="" placeholder="确认密码" minlength="6" required="" oninput="setCustomValidity('');"/>
+						</li>
+						<li class="main-last"><span></span>
+							<input type="checkbox" name="agreeChoose" id="agreeChoose" checked="checked" required=""/><a href="">我已阅读并同意《嘉丽购物网服务条款》</a></li>
+						<li class="main-last"><span></span>
+							<input type="submit" name="submit" id="submit" value="注册" />
+						</li>
+						<li class="main-last main-last-choose">
+							<p>您还可以选择</p><p><a href="userRegist_email.html" class="mail-regist">邮箱注册</a></p>
+						</li>
+					</ul>
+				</div>
+			</form>
+			<div class="main-right"><img src="../img/userCenter/login-bg1.jpg"/></div>
+		</div>
+		<div class="clearfx"></div>
+		<div id="footer"></div>
+	</body>
+	<script src="../js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/userCenter/uesrRegist.js" type="text/javascript" charset="utf-8"></script>
+</html>

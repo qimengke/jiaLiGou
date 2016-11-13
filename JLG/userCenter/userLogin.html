@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户登录</title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/userCenter/uesrLogin.css"/>
+	</head>
+	<body>
+		<div id="regist-header">
+			<div class="header-main">
+				<div class="logo"><a href="../index.html"><img src="../img/userCenter/logo.png" /></a></div>
+				<ul class="header-title">
+					<li class="gray-line">|</li>
+					<li>用户登录</li>
+				</ul>
+				<div class="header-right">
+					<ul>
+						<li class="header-right-first">|</li>
+						<li><a href="">嘉乐购电视会员入口</a></li>
+						<li>|</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="main">
+			<div class="main-left"><img src="../img/userCenter/login-bg.jpg"/></div>
+			<div class="main-right">
+				<form action="" method="post" id="login-form">
+					<ul>
+						<li><p style="float: left;">嘉乐购会员登录</p><a href="userRegist.html" style="float: right;color: #E91456;">免费注册</a></li>
+						<li style="height: 51px;"><input type="text" name="userName" id="userName" value="123123@sina.com" placeholder="用户名/邮箱/电话号码"   oninput="setCustomValidity('')" required=""/></li>
+						<li><input type="password" name="psw" id="psw" value="123123" placeholder="输入密码" oninput="setCustomValidity('')"/></li>
+					</ul>
+					<div class="main-right-login">
+						<input type="checkbox" name="" id="auto-login" value=""/>自动登录&nbsp;<a href="">找回密码</a>
+						<input type="submit" name="login" id="login" value="登录" onclick="check()"/>
+					</div>
+				</form>
+				<span class="halvingLine">亲，没有账号，您可以选择以下登录方式！</span>
+				<div class="other-login">
+					<div class="qq"><a href=""><img src="../img/userCenter/qq.png" alt=""/><span>QQ登录</span></a></div>
+					<div class="sina"><a href=""><img src="../img/userCenter/sina_weibo.jpg" alt="" style="width: 57px;height: 21px;"/></a></div>
+				</div>
+			</div>
+		</div>
+		<div class="clearfx"></div>
+		<div id="footer"></div>
+	</body>
+	<script src="../js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/userCenter/userLogin.js" type="text/javascript" charset="utf-8"></script>
+</html>

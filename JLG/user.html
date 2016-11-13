@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>个人中心</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/user.css" />
+		<link rel="stylesheet" type="text/css" href="css/select2.css" />
+	</head>
+
+	<body>
+		<div class="user-body">
+			<!--顶部开始-->
+			<div id="user-header">
+				<div class="headerTop">
+					<div class="headerTop-content">
+						<div class="hotline">
+							电话热线<span class="phoneNum">400-630-0077</span>
+						</div>
+						<div class="loginActive">
+							<a href="userCenter/userLogin.html" class="loginBtn">[登录]</a>
+							<a href="userCenter/userRegist.html" class="regist">[免费注册]</a>
+						</div>
+						<ul class="headerTop-right">
+							<li><a  onclick="return checkIsLoginBtn()" href="user.html">我的嘉</a></li>
+			<li><a  onclick="return checkMyOrderBtn()" href="proOrder.html">我的订单</a></li>
+							<li><a href="">客户服务</a></li>
+							<li><a href="">电视会员激活</a></li>
+							<li class="headerTop-right-last"><a href="">手机嘉里购</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="header-main">
+					<div class="logo">
+						<a href="index.html"><img src="img/userCenter/logo.png" /></a>
+					</div>
+					<ul class="header-title">
+						<li class="gray-line">我的嘉</li>
+						<li class="userName pink"></li>
+						<li>您好!</li>
+					</ul>
+					<div class="header-right">
+						<a href="index.html">返回首页  ></a>
+					</div>
+				</div>
+			</div>
+			<div class="clearfx"></div>
+			<!--顶部结束-->
+			<div class="main">
+				<!--内容左导航开始-->
+				<div class="m-leftNav">
+					<ul class="m-l-c1">
+						<li class="m-l-c1-t">交易管理</li>
+						<li><a href="shoppingCart.html">我的购物车</a></li>
+						<li class="c-li"><a href="javascript:void(0)" onclick="myOrder()">我的订单</a></li>
+						<li class="c-li"><a href="javascript:void(0)">我的优惠卷</a></li>
+						<li class="c-li" onclick="checkMy('collectName')"><a href="javascript:void(0)">我的收藏</a></li>
+					</ul>
+					<ul class="m-l-c1">
+						<li class="m-l-c1-t">个人账户</li>
+						<li class="c-li"><a href="javascript:void(0)">我的信息</a></li>
+						<li class="c-li"><a href="javascript:void(0)">修改密码</a></li>
+						<li class="c-li"><a href="javascript:void(0)">收货地址管理</a></li>
+						<li class="c-li"><a href="javascript:void(0)">我的积分</a></li>
+						<li class="c-li"><a href="javascript:void(0)">我的礼品卡</a></li>
+					</ul>
+				</div>
+				<!--内容左导航结束-->
+				<!--内容开始-->
+				<div class="content">
+					<!--我的订单开始-->
+					<div class="c-t">我的订单</div>
+					<div class="c c0"  style="display: block;">
+						<ul class="gc-t">
+							<li class="gc-t1">商品</li>
+							<li class="gc-t2">商品名</li>
+							<li class="gc-t3">单价(元)</li>
+							<li class="gc-t4"></li>
+							<li class="gc-t5">状态</li>
+						</ul>
+						<!--生成商品列表开始-->
+						<div class="goods-show-c">
+							<ul class="goods-content-goods">
+								<li class="gc-t1">
+									<img class="proImg1" src="" />
+								</li>
+								<li class="gc-t2">
+									<p class="proName1"></p>
+									<p class="proId1"></p>
+								</li>
+								<li class="gc-t3">
+									<p class="firstPrice1">¥</p>
+								</li>
+								<li class="gc-t4">
+									<span class="proAmo1"></span>
+								</li>
+								<li class="gc-t5">
+									<span class="proState1">免费</span>
+								</li>
+							</ul>
+						</div>
+						<div class="empty-content">
+							您的订单空空如也，快去挑选吧！
+						</div>
+					</div>
+					<!--我的订单结束-->
+					<div class="c c1">
+						暂无优惠卷信息!
+					</div>
+					<!--我的收藏-->
+					<div class="c c2">
+						<div class="goods-show-content">
+							<ul class="goods-content-t">
+								<li class="goods-content-t1">商品</li>
+								<li class="goods-content-t2">商品名</li>
+								<li class="goods-content-t3">单价(元)</li>
+							</ul>
+							<ul class="goods-content-goods">
+								<li class="goods-content-t1">
+									<a href="proDetail.html"><img class="proImg" src="" /></a>
+								</li>
+								<li class="goods-content-t2">
+									<a href="proDetail.html">
+										<p class="proName"></p>
+										<p class="proId"></p>
+									</a>
+								</li>
+								<li class="goods-content-t3">
+									<p class="firstPrice">¥</p>
+								</li>
+							</ul>
+						</div>
+						<div class="empty-content">
+							您的收藏空空如也，快去挑选吧！
+						</div>
+					</div>
+					<!--我的信息-->
+					<div class="c c3">
+						<form action="" method="post">
+							<ul>
+								<li><span>真实姓名：</span>
+									<input type="text" name="" id="" value="" class="c-name" placeholder="输入姓名" />
+								</li>
+								<li><span>昵&nbsp;&nbsp;称：</span>
+									<input type="text" name="" id="" value="" placeholder="昵称" class="c-nickname" />
+								</li>
+								<li><span>性&nbsp;&nbsp;别：</span>
+									<input type="radio" name="sex" id="sex" value="" />男
+									<input type="radio" name="sex" id="" value="" />女
+								</li>
+								<li><span>联系方式：</span>
+									<input id="mobile" type="text" required="required" oninput="setCustomValidity('');" oninvalid="setCustomValidity('请输入手机号码！');" pattern="^1[34578]{1}[0-9]{9}$" placeholder="输入手机号" class="c-phoneNum" />
+								</li>
+								<li><span>邮箱地址：</span>
+									<input id="mail" type="text" required="" oninput="setCustomValidity('');" oninvalid="setCustomValidity('请输入邮箱！');" pattern="^([_.0-9a-z-]+@([0-9a-z][0-9a-z-]+.)+[a-z]{2,4})$" placeholder="输入邮箱" class="c-mail" />
+								</li>
+								<li><span>联系地址：</span>
+									<input type="text" name="" id="" value="" class="c-address" placeholder="请输入地址" />
+								</li>
+							</ul>
+							<div class="clearfx"></div>
+							<input type="submit" value="确认" class="subBtn" />
+						</form>
+					</div>
+					<!--修改密码-->
+					<div class="c c4">
+						<form action="" method="post" id="changePswForm">
+							<ul>
+								<li><span>用户名：</span><span class="userName"></span></li>
+
+								<li><span>原密码：</span>
+									<input type="password" name="psw" id="psw" value="" placeholder="请输入原密码" minlength="6" required="" />
+								</li>
+								<li>
+									<span>新密码：</span>
+									<input type="password" name="psw" id="newPsw" value="" placeholder="请输入新的密码" minlength="6" required="" oninput="setCustomValidity('');" />
+								</li>
+								<li>
+									<span>确认密码：</span>
+									<input type="password" name="confirmpsw" id="confirmPsw" value="" placeholder="确认密码" minlength="6" required="" oninput="setCustomValidity('');" />
+								</li>
+							</ul>
+							<input type="submit" value="确认" class="subBtn" id="changePswBtn" />
+						</form>
+					</div>
+					<!--保存地址-->
+					<div class="c c5">
+						<form action="" method="post" id="address-form">
+							<ul>
+								<li>
+									<span>*所在地区：</span>
+									<div class="city-main">
+										<select name="loc_province" id="loc_province">
+										</select>
+										<select name="loc_city" id="loc_city">
+										</select>
+										<select name="loc_town" id="loc_town">
+										</select>
+										<input type="button" name="btnval" id="btntext" value="获取地址" style="display: none;"/>
+										<i id="msg"></i>
+									</div>
+								</li>
+								<li style="height: 38px;line-height: 38px;"><span style="float: left;">*详细地址：</span><textarea id="userAddress" placeholder="建议您如实填写收货地址，例如街道名称，门牌号，楼层，房间号等信息" />AAAAAAAAAAAAAAA</textarea></li>
+								<li><span>*姓名：</span><input type="text" placeholder="请输入收货人姓名" id="userName" value="呵呵"/></li>
+								<li><span>*手机号码：</span><input id="mobile" value="13203958510" type="text" required="required" oninput="setCustomValidity('');" oninvalid="setCustomValidity('请输入手机号码！');" pattern="^1[34578]{1}[0-9]{9}$" placeholder="请输入收货人手机号" class="c-phoneNum consigneePhoneNum" /></li>
+							</ul>
+							<input type="submit" value="保存" class="addressSaveBtn subBtn"/>
+						</form>
+					</div>
+					<!--我的积分-->
+					<div class="c c6">
+						您的所剩积分为 <span class="myInt">0</span> ！
+					</div>
+					<div class="c c7">
+						<ul>
+							<li><span>卡号：</span><input type="text" id="cardNum"/></li>
+							<li><span>密码：</span><input type="text" id="cardPsw" /></li>
+							<li><input type="button" class="subBtn" value="激活"/><a href="">查看礼品卡使用明细>></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfx"></div>
+				<!--内容结束-->
+			</div>
+			<div id="footer"></div>
+		</div>
+	</body>
+	<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/commom.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/user.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/select2.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/location.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/area.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

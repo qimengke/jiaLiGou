@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+	<input id="showdialog" type="button" value="我要弹出模态窗口" />
+ 
+ <div id="dialog" title="我是弹出的模态窗口">
+ 
+ </div>
+</body>
+<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function () {
+	$("#dialog").dialog({//"#dialog"为要作为模态窗口的div标签id
+		 autoOpen: false,//是否页面载入时自动打开
+		 height: 300,
+		 width: 300,
+		 modal: true,//是否模态
+		 show: "drop",//dialog的动画效果
+		 buttons:{//在下方增加关闭按钮
+		 关闭/*关闭按钮上显示的文字*/:function(){
+		 $(this).dialog("close");
+		 }
+		 }
+		 });
+		 $("#showdialog")//"#showdialog"打开模态窗口的按钮id
+		 .button()//显示为按钮
+		 .click(function () {//按钮的单击事件
+		 $("#dialog").dialog("open");
+	 });
+	
+})
+</script>
+</html>
